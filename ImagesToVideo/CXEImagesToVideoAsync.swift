@@ -92,7 +92,6 @@ class CXEImageToVideoAsync: NSObject{
         let mediaInputQueue = DispatchQueue(label: "mediaInputQueue")
         var i = 0
         let frameNumber = images.count
-        while !self.writeInput.isReadyForMoreMediaData {}
         self.writeInput.requestMediaDataWhenReady(on: mediaInputQueue){
             while(true){
                 if(i >= frameNumber){
