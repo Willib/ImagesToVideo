@@ -14,7 +14,6 @@
 		8454FD591E0E1A9800A067EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454FD571E0E1A9800A067EE /* LaunchScreen.storyboard */; };
 		8454FD641E0E1A9800A067EE /* ImagesToVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454FD631E0E1A9800A067EE /* ImagesToVideoTests.swift */; };
 		8454FD6F1E0E1A9800A067EE /* ImagesToVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454FD6E1E0E1A9800A067EE /* ImagesToVideoUITests.swift */; };
-		8454FD7D1E0E1AD900A067EE /* CXEImagesToVideoAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454FD7C1E0E1AD900A067EE /* CXEImagesToVideoAsync.swift */; };
 		8454FD7F1E0E1B3400A067EE /* CXEImagesToVideoSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454FD7E1E0E1B3400A067EE /* CXEImagesToVideoSync.swift */; };
 		8454FD811E0E1BD100A067EE /* CXEPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454FD801E0E1BD100A067EE /* CXEPlayerView.swift */; };
 		8454FD831E0E1D0100A067EE /* 860.png in Resources */ = {isa = PBXBuildFile; fileRef = 8454FD821E0E1D0100A067EE /* 860.png */; };
@@ -23,6 +22,7 @@
 		8454FD8B1E0E271C00A067EE /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8454FD861E0E271C00A067EE /* 29.jpg */; };
 		8454FD8C1E0E271C00A067EE /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8454FD871E0E271C00A067EE /* 30.jpg */; };
 		8454FD8D1E0E271C00A067EE /* 31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8454FD881E0E271C00A067EE /* 31.jpg */; };
+		8454FD911E0E2FA300A067EE /* CXEImagesToVideoAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454FD901E0E2FA300A067EE /* CXEImagesToVideoAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		8454FD6A1E0E1A9800A067EE /* ImagesToVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagesToVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8454FD6E1E0E1A9800A067EE /* ImagesToVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesToVideoUITests.swift; sourceTree = "<group>"; };
 		8454FD701E0E1A9800A067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8454FD7C1E0E1AD900A067EE /* CXEImagesToVideoAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CXEImagesToVideoAsync.swift; path = ../CXEImagesToVideoAsync.swift; sourceTree = "<group>"; };
 		8454FD7E1E0E1B3400A067EE /* CXEImagesToVideoSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXEImagesToVideoSync.swift; sourceTree = "<group>"; };
 		8454FD801E0E1BD100A067EE /* CXEPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXEPlayerView.swift; sourceTree = "<group>"; };
 		8454FD821E0E1D0100A067EE /* 860.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 860.png; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		8454FD861E0E271C00A067EE /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
 		8454FD871E0E271C00A067EE /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
 		8454FD881E0E271C00A067EE /* 31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 31.jpg; sourceTree = "<group>"; };
+		8454FD901E0E2FA300A067EE /* CXEImagesToVideoAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXEImagesToVideoAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 				8454FD4E1E0E1A9800A067EE /* AppDelegate.swift */,
 				8454FD501E0E1A9800A067EE /* ViewController.swift */,
 				8454FD801E0E1BD100A067EE /* CXEPlayerView.swift */,
-				8454FD7C1E0E1AD900A067EE /* CXEImagesToVideoAsync.swift */,
 				8454FD7E1E0E1B3400A067EE /* CXEImagesToVideoSync.swift */,
+				8454FD901E0E2FA300A067EE /* CXEImagesToVideoAsync.swift */,
 				8454FD521E0E1A9800A067EE /* Main.storyboard */,
 				8454FD551E0E1A9800A067EE /* Assets.xcassets */,
 				8454FD571E0E1A9800A067EE /* LaunchScreen.storyboard */,
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8454FD511E0E1A9800A067EE /* ViewController.swift in Sources */,
-				8454FD7D1E0E1AD900A067EE /* CXEImagesToVideoAsync.swift in Sources */,
+				8454FD911E0E2FA300A067EE /* CXEImagesToVideoAsync.swift in Sources */,
 				8454FD811E0E1BD100A067EE /* CXEPlayerView.swift in Sources */,
 				8454FD7F1E0E1B3400A067EE /* CXEImagesToVideoSync.swift in Sources */,
 				8454FD4F1E0E1A9800A067EE /* AppDelegate.swift in Sources */,
@@ -550,6 +550,7 @@
 				8454FD751E0E1A9800A067EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8454FD761E0E1A9800A067EE /* Build configuration list for PBXNativeTarget "ImagesToVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +559,7 @@
 				8454FD781E0E1A9800A067EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8454FD791E0E1A9800A067EE /* Build configuration list for PBXNativeTarget "ImagesToVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +568,7 @@
 				8454FD7B1E0E1A9800A067EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
